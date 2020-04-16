@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".merciimek">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="245dp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_marginTop="15dp"
+                android:background="#ff6347"
+                android:text="CİPURA"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/mercisimge" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="4-6 KİŞİLİK"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="58dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="21dp"
+                    android:src="@drawable/saat" />
+
+                <TextView
+                    android:layout_width="57dp"
+                    android:layout_height="18dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="45 DK"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="#ff6347"
+                android:text="MALZEMELER"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 adet cupra "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 orta boy soğan "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 diş sarımsak "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arzuya göre biberiye dalları (yoksa sorun değil) "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arzuya göre patates"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 limon "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zeytinyağı"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuz"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karabiber"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="#ff6347"
+                android:text="YAPILIŞI"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Balıklar temiz değilse güzelce temizlenir. Soğanlar sarımsaklar ve limonlar halka halka kesilir. Tepsiye yağlı kağıt dizilir üzerine balıklar yerleştirilir. İçine birazcık çok değil zeytin yapı gezdirilir tuzlanır karabiber eklenir çok az. Bir halka soğan ve iki halka sarımsak yerleştirilir. Varsa biberiye dalı eklenir. Balıkların üzerine de çok az yağ gezdirilir tuzlanır. Fazla soğan sarımsak ve arzuya göre patates dilimleri balığın etrafına yerleştirilir. Her balığın üzerine bir dilim limon eklenir. Fırın 200 dereceye ayarlanır. Tepsinin üzeri aliminyum folye ile örtülür bu şekilde yaklaşık 25-30 dakika pişirilir daha sonra folyo çekilir ve tekrar 15 dakika kadar pişirilir bu sürede de üzeri kızarır."
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+

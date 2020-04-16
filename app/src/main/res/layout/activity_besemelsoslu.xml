@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".merciimek">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="245dp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_marginTop="15dp"
+                android:background="#ff6347"
+                android:text="BEŞAMEL SOSLU TAVUK"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/mercisimge" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="4-6 KİŞİLİK"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="58dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="21dp"
+                    android:src="@drawable/saat" />
+
+                <TextView
+                    android:layout_width="57dp"
+                    android:layout_height="18dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="45 DK"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="#ff6347"
+                android:text="MALZEMELER"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 kilo tavuk göğsü ( küçük doğranmış)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 kuru soğan "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5-6 adet sivri biber"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 adet orta bot domates"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kırmızı biber, kara biber, kekik, tuz "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 yemek kaşığı un "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Süt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıvı yağ "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaşar peyniri (ince dilimlenmiş veya rendelenmiş )"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="#ff6347"
+                android:text="YAPILIŞI"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tencereye az sıvı yağ koyup kuru soğanı ince yemeklik doğruyoruz üzerine sivri biberleri de küçük doğrayıp soğanla kavuruyoruz tavukları da kuş başından küçük doğrayıp tavada suyunu çekene kadar pişiriyoruz.Daha sonra domatesleri de küp şeklinde doğrayıp pişiriyoruz ( salça koymuyorum mevsiminde olduğu için domatesler renk veriyor ) ayrı bir tavaya yağ ve unu kavuruyoruz sütü de yavaş yavaş ekleyip karıştırıyoruz. Daha sonra küçük güveçlere önce tavuklu harçdan koyup üzerini beşamel sosla kaplıyoruz ve tepsiye az su koyup fırında üstü hafif pembeleşene kadar pişirin daha sonra indirmeye yakında üzerine kaşar ve acı sevenler için pul biber serpiyoruz. şimdiden Afiyet olsun.."
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

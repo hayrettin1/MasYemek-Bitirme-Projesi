@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".merciimek">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="245dp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_marginTop="15dp"
+                android:background="#ff6347"
+                android:text="TAVUK KALAMAR"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/mercisimge" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="6-8 KİŞİLİK"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="58dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="21dp"
+                    android:src="@drawable/saat" />
+
+                <TextView
+                    android:layout_width="57dp"
+                    android:layout_height="18dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="30 DK"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="#ff6347"
+                android:text="MALZEMELER"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500 gr tavuk göğsü"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 çay kaşığı pul biber"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 çay kaşığı kekik"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 tatlı kaşığı tuz, karabiber"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 yumurta"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 şişe içme sodası (Maden suyu)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 yemek kaşığı un"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yarım paket kabartma tozu"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yarım tatlı kaşığı karbonat"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="#ff6347"
+                android:text="YAPILIŞI"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tavuk göğsü julyen doğranır. Derin bir kaba alınır. Üzerine pul biber, kekik, tuz, karabiber vs. istediğiniz baharatları ekleyip güzelce karıştırılır. Ayrı bir kapta 1 yumurta 1-2 dk çırpılır. Üzerine 1 şişe maden suyu eklenir. Un, kabartma tozu ve karbonat eklenip güzelce karıştırılır. Homojen bir karışım elde edilir. Bu karışım baharatlı tavukların üzerine dökülür. Bir güzel karıştırılır. Üzeri streç ile kapatılarak 1 saat dolapta dinlendirilir. Dinlenen tavuklar sostan alınıp kızgın yağda arkalı önlü güzelce kızartılır. Çıtır tavuklarımız hazır, afiyetle "
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

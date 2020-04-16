@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".merciimek">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="245dp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_marginTop="15dp"
+                android:background="#ff6347"
+                android:text="ET SOTE"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/mercisimge" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="4-6 KİŞİLİK"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="58dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="21dp"
+                    android:src="@drawable/saat" />
+
+                <TextView
+                    android:layout_width="57dp"
+                    android:layout_height="18dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="45 DK"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="#ff6347"
+                android:text="MALZEMELER"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 yemek kaşığı sıvı yağ"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 yemek kaşığı tereyağı"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 adet soğan"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500g kuşbaşı et"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 adet domates"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4 adet sivri biber"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pul biber"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karabiber"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kekik"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcak su (üzerini geçecek kadar)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuz"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="#ff6347"
+                android:text="YAPILIŞI"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kıymayı derin bir tasa alalım. Sarımsağı rendeleyip veya minik minik doğrayıp üzerine ilave edelim. Domatesi biberleri ve soğanı rondodan geçirip karabiber, tuz, kimyon, kekik arzuya göre ve ufak bir tutam maydanozu da ince ince doğrayalım. Bir  yemek kaşığı kadar sıvı yağ ile kıymayı güzelce yoğuralım. Kıymalı harcı bir Kenara alıp patatesi soyup yuvarlak dilimler halinde kesip tuzlayalım Ve sonra patatesleri alta dizip üzerine yoğurduğumuz kıymayı yayıp bıçakla istediğiniz gibi şeklini verip domates biber ile süsleyip üzerini de folyo ile güzelce kapatıp 200 derece ısıtılmış fırında bir müddet kapalı olarak pişirin. Daha sonra folyoyu çıkarıp kızartın, kontrollü bir şekilde pişirelim, afiyet olsun "
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

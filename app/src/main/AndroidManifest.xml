@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.masyemek">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pankek" />
+        <activity android:name=".avciboregi" />
+        <activity android:name=".sodaliborek" />
+        <activity android:name=".ayboregi" />
+        <activity android:name=".dereotlu" />
+        <activity android:name=".hamurisleri" />
+        <activity android:name=".tazefasulye" />
+        <activity android:name=".barbunya" />
+        <activity android:name=".sebzelimakarna" />
+        <activity android:name=".mucver" />
+        <activity android:name=".imambayildi" />
+        <activity android:name=".sebzeyemekleri" />
+        <activity android:name=".cupra" />
+        <activity android:name=".hamsi" />
+        <activity android:name=".uskumru" />
+        <activity android:name=".palamut" />
+        <activity android:name=".istavrit" />
+        <activity android:name=".balikyemekleri" />
+        <activity android:name=".besemelsoslu" />
+        <activity android:name=".tavuklubugu" />
+        <activity android:name=".tavukkalamar" />
+        <activity android:name=".tavuksote" />
+        <activity android:name=".sultankebabi" />
+        <activity android:name=".tavukyemekleri" />
+        <activity android:name=".rosto" />
+        <activity android:name=".etsote" />
+        <activity android:name=".yoneticiekran" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".kilistava" />
+        <activity android:name=".tirit" />
+        <activity android:name=".parmakkebap" />
+        <activity android:name=".etyemekleri" />
+        <activity android:name=".kereviz" />
+        <activity android:name=".brokoli" />
+        <activity android:name=".merciimek" />
+        <activity android:name=".ezogelin" />
+        <activity android:name=".tarhana" />
+        <activity android:name=".Corbalar" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953456348077",
+    "firebase_url": "https://masyemek.firebaseio.com",
+    "project_id": "masyemek",
+    "storage_bucket": "masyemek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953456348077:android:98870d82643f9cd1b42f24",
+        "android_client_info": {
+          "package_name": "com.example.masyemek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953456348077-0q7gkseaj72692765pu3co4biae9jfh6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.masyemek",
+            "certificate_hash": "d046ca3e31eb09341da764ef419f00f31ffaaece"
+          }
+        },
+        {
+          "client_id": "953456348077-0aqsd8agc351f2qo7vg6kkj4dsgmhk6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjKOiTOLw0I2w-kbKqxAwal1CCGrf54W0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953456348077-0aqsd8agc351f2qo7vg6kkj4dsgmhk6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
